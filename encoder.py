@@ -1,4 +1,4 @@
-def encode_string(string):
+def encode_string(string):           
     encoded_string = ""
     for char in string:
         if char.isdigit():
@@ -36,6 +36,8 @@ def decode_string(encoded_string):
 
 encoded_result = None
 
+# you should put this in the code in order to separate the methods from the displayed / run part of the program (and indent accordingly) 
+# if __name__ == '__main__':
 
 while True:
     print('Menu')
